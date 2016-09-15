@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/set_checkbox"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/set_id"
+        android:text="Set 1:"
+        android:layout_toEndOf="@id/set_checkbox"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/set_values"
+        android:text="200, 400, 500"
+        android:layout_toEndOf="@id/set_id"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/set_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_action_delete"
+        android:visibility="gone"
+        android:layout_marginEnd="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</RelativeLayout>

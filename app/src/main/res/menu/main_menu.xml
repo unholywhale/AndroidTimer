@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/add"
+          android:id="@+id/menu_add"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_add"
+          android:visible="true"/>
+    <item android:title="@string/delete"
+          android:id="@+id/menu_delete"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_delete"
+          android:visible="false"/>
+    <item android:title="Average"
+          android:id="@+id/menu_average"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_average"
+          android:visible="false"/>
+</menu>

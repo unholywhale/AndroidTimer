@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Timer</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+</resources>
