@@ -401,7 +401,6 @@ public class MainActivity extends AppCompatActivity {
                         setChecked(position);
                     }
                 });
-                holder.delete = (ImageView) row.findViewById(R.id.set_delete);
                 row.setTag(holder);
             } else {
                 holder = (SetHolder) row.getTag();
@@ -431,7 +430,6 @@ public class MainActivity extends AppCompatActivity {
             TextView setId;
             TextView setValues;
             CheckBox checkBox;
-            ImageView delete;
         }
     }
 
